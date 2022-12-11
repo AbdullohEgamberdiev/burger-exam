@@ -1,0 +1,320 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81);
+}
+header a {
+  color: red;
+  font-size: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+header a.logo__link {
+  text-shadow: 0px 0px 10px red;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  border: 1px solid rgb(19, 0, 81);
+  max-width: 1200px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: red;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+h2.pizza__title {
+  color: yellow;
+}
+
+main {
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81);
+}
+
+.head__img{
+  width: 200px;
+  height: 150px;
+}
+
+.burger__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients__form{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main__elements__box{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingre__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.cheese__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.meat__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.onion__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.salad__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.tomato__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.pickle__button{
+  border: 1px solid red;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(103, 0, 0);
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: red;
+    box-shadow: 0px 0px 20px red;
+  }
+}
+
+.menu{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.menu__box{
+  border: 1px solid yellow;
+  background: none;
+  width: 400px;
+  height: 400px;
+  opacity: 0.3;
+  transition: all .5s ease-in-out;
+  &:hover{
+    background-color: yellow;
+    opacity: 1;
+  }
+}
+
+.menu__title{
+  padding-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+
+.menu__text{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top__bread__img{
+  z-index: 2;
+  margin-bottom: -40px;
+}
+
+.meat__img{
+  z-index: 1;
+  margin-bottom: -40px;
+}
+
+.ingredients__box{
+  z-index: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.price__title{
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+
+.reset__box{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  .reset__btn{
+  border: 1px solid rgb(0, 196, 0);
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: rgb(0, 196, 0);
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: rgb(0, 196, 0);
+    box-shadow: 0px 0px 20px rgb(0, 196, 0);
+  }
+  }
+
+  .reset__link{
+    color: rgb(0, 196, 0);
+  }
+}
+
+.btns__box{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.order__btn{
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: none !important;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  color: blue;
+  opacity: 0.4;
+  transition: all .5s ease-in-out;
+  &:hover{
+    border-radius: 30px;
+    opacity: 1;
+    color: rgb(64, 64, 250);
+    box-shadow: 0px 0px 20px rgb(64, 64, 250);
+  }
+  }
